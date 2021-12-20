@@ -1,0 +1,33 @@
+.feature {
+  margin: 100px 0;
+}
+.feature h2 {
+  margin-bottom: 20px;
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+}
+.feature h5 {
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+}
+
+.feature .sarve {
+  background-color: #ffd5ec86;
+  border-radius: 5px;
+  padding: 30px;
+  height: 300px;
+}
+.feature .sarve .imges {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.feature .sarve .imges img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.feature .services {
+  margin-top: 40px;
+}

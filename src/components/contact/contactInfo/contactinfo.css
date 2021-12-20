@@ -1,0 +1,35 @@
+.contactinfo {
+  margin: 50px 0;
+  overflow: hidden;
+}
+.contactinfo p {
+  color: grey;
+  font-size: 15px;
+}
+.contactinfo .imgs {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.contactinfo .imgs img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contactinfo .item {
+  display: flex;
+}
+.contactinfo .item .inner {
+  display: flex;
+  align-items: center;
+}
+.contactinfo .row > div > div > img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+.contactinfo .last > div {
+  display: flex;
+  align-items: center;
+}

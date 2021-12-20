@@ -1,0 +1,24 @@
+.gouls {
+  margin: 100px 0;
+  padding: 70px 0;
+  background-image: url(../../../img/about/back1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gouls p {
+  color: grey;
+  font-size: 15px;
+}
+.gouls h2 {
+  margin-bottom: 20px;
+}
+.gouls img {
+  width: 90%;
+  margin: auto;
+  display: inline-block;
+}
+.gouls .inner {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}

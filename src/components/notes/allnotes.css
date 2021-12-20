@@ -1,0 +1,42 @@
+.allnotes .card {
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px rgba(128, 128, 128, 0.623);
+  border: 1px solid #931d65;
+  overflow: hidden;
+}
+.allnotes .content {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  font-family: "PT Serif", serif;
+}
+.allnotes a {
+  font-weight: 600;
+  background-color: #931d65;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.allnotes .card .card-text {
+  color: grey;
+  font-size: 15px;
+}
+.allnotes ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.allnotes ul li {
+  cursor: pointer;
+  margin: 0 10px;
+  border: 1px solid #931d65;
+  padding: 5px 10px;
+  transition: all 0.3s linear;
+  border-radius: 50%;
+}
+.allnotes ul li:hover,
+.allnotes .active {
+  background-color: #931d65;
+  color: white;
+}

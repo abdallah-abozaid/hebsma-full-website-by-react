@@ -1,0 +1,32 @@
+.singlework {
+  padding: 60px 0;
+}
+.singlework p {
+  color: rgb(95, 95, 95);
+  font-size: 15px;
+}
+.singlework h2 {
+  margin-bottom: 20px;
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+}
+.singlework img {
+  width: 60%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.singlework a {
+  background-color: #991d67;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.3s linear;
+}
+.singlework a:hover {
+  background-color: white;
+  color: #991d67 !important;
+  border: 2px solid #991d67;
+}

@@ -1,0 +1,21 @@
+.singlenote .card {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.521);
+  margin: auto;
+  font-family: "PT Serif", serif;
+}
+.singlenote .sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .singlenote .card {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+}
+.singlenote h4 {
+  font-family: "PT Serif", serif;
+}

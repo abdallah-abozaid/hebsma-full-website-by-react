@@ -1,0 +1,20 @@
+.msgs {
+  margin: 100px 0;
+}
+.msgs p {
+  color: grey;
+  font-size: 15px;
+}
+.msgs h2 {
+  margin-bottom: 20px;
+}
+.msgs img {
+  width: 80%;
+  margin: auto;
+  display: inline-block;
+}
+.msgs .inner {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}

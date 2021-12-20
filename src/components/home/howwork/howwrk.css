@@ -1,0 +1,49 @@
+.howwork {
+  text-align: center;
+  overflow: hidden;
+}
+.howwork .container > p {
+  margin: 10px auto 40px;
+}
+.howworks .card .imges {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.howworks .card .imges img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.howworks .card {
+  background-color: transparent;
+  border: none;
+}
+.howwork {
+  margin-bottom: 50px;
+  padding: 60px 0 80px;
+  background-color: #f7f9ff;
+}
+.howworks {
+  background-image: url(../../../img/home/howworks/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+@media (max-width: 992px) {
+  .howworks .card .imges img:first-of-type {
+    width: 180%;
+  }
+}
+@media (max-width: 767px) {
+  .howworks .card .imges img:first-of-type {
+    width: 140%;
+  }
+}
+@media (max-width: 575px) {
+  .howworks .card .imges img:first-of-type {
+    width: 80%;
+  }
+}

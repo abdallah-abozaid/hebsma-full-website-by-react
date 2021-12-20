@@ -1,0 +1,82 @@
+.portfolio {
+  margin: 20px 0;
+  overflow: hidden;
+}
+.portfolio .items {
+  text-align: center;
+  margin: 30px 0;
+}
+.portfolio h2 {
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+}
+.portfolio .elements .buttons {
+  margin: 30px 10px;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .elements .buttons button {
+  margin: 10px;
+  border: 2px solid #ec2593f8;
+  border-radius: 5px;
+  color: #a5005bf8;
+  padding: 5px 10px;
+  background-color: white;
+}
+.portfolio .elements .buttons button.active {
+  background-color: #a5005bf8;
+  color: white;
+  border-color: white;
+}
+.portfolio .item {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio .item .outer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+  background-color: #88044dbb;
+  text-align: center;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+.portfolio .item:hover .outer {
+  bottom: 0;
+}
+.portfolio .item .outer h4 {
+  color: white;
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+}
+
+.portfolio .item .outer a {
+  background-color: white;
+  color: #88044dbb !important;
+  padding: 4px 10px;
+  margin: 0;
+  border-radius: 5px;
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+  font-size: 20px;
+  transition: all 0.3s linear;
+  padding-bottom: 6px;
+}
+.portfolio .item .outer a:hover {
+  background-color: transparent;
+  color: white !important;
+  border: 1px solid white;
+}
+@media (max-width: 992px) {
+  .portfolio .elements .buttons button {
+    margin: 5px;
+    border: 1px solid #ec2593f8;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+}

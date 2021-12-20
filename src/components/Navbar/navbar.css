@@ -1,0 +1,35 @@
+.bigBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 75%;
+}
+.navbar .nav-link {
+  color: white !important;
+  margin: 0 10px;
+}
+.logo {
+  margin-right: 30px;
+}
+a {
+  color: white !important;
+}
+.background {
+  background: linear-gradient(45deg, #be1a74, #8e1d63);
+}
+.navbar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.205);
+  border-bottom: 2px solid white;
+}
+@media (max-width: 992px) {
+  .navbar {
+    background: linear-gradient(45deg, #be1a74, #8e1d63);
+  }
+  .bigBack {
+    display: none;
+  }
+  .navbar .nav-link {
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+.customer {
+  padding: 50px 0;
+  background-color: #f7f9ff;
+}
+.customer .card {
+  padding: 20px;
+  border: none;
+}
+.customer .card p {
+  color: grey;
+  font-size: 15px;
+}
+.customer .card.fst {
+  background-color: transparent;
+}
+.customer .card h3 {
+  color: #cc0e74;
+}
+.customer .inner {
+  display: flex;
+}
+.customer .inner > div {
+  margin-right: 10px;
+}
+.customer .inner > div h6 {
+  padding-top: 12px;
+  margin-bottom: 0;
+}

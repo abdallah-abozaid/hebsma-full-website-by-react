@@ -1,0 +1,15 @@
+.TitleSection {
+  background-color: #f8f7ff;
+  text-align: center;
+  padding: 20px;
+}
+.TitleSection p {
+  color: grey;
+  margin-bottom: 0;
+}
+.TitleSection h1 {
+  font-family: "Vujahday Script", cursive;
+  font-weight: 900;
+  margin: 0;
+  color: rgb(77, 77, 77);
+}

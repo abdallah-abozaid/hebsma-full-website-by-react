@@ -1,0 +1,23 @@
+*,
+body {
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+a {
+  text-decoration: none !important;
+}
+:root {
+  --maincolor: #8e1d63;
+}
+.desc {
+  width: 60%;
+  color: gray;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .desc {
+    width: 80%;
+  }
+}
